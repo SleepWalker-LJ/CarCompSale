@@ -1,0 +1,160 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/Home",
+			"style": {
+				"navigationBarTitleText": "mxmywx汽车漆面保护膜"
+			}
+		},
+		{
+			"path": "pages/home/guaranteeFind/NetSearch",
+			"style": {
+				"navigationBarTitleText": "网点查询"
+			}
+		},
+		{
+			"path": "pages/home/guaranteeFind/Attestation",
+			"style": {
+				"navigationBarTitleText": "认证技师"
+			}
+		},
+		{
+			"path": "pages/home/guaranteeFind/GuaranteeEnter",
+			"style": {
+				"navigationBarTitleText": "质保录入"
+			}
+		},
+		{
+			"path": "pages/home/guaranteeFind/GuaranteeFind",
+			"style": {
+				"navigationBarTitleText": "质保查询"
+			}
+		},
+		{
+			"path": "pages/home/guaranteeFind/guaranteeFindDetail/GuaranteeFindDetail",
+			"style": {
+				"navigationBarTitleText": "质保详情"
+			}
+		},
+		{
+			"path": "pages/home/guaranteeFind/Login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/homeComps/ArticleDetail",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/home/homeComps/ListDetail",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/quotedPrice/QuotedPrice",
+			"style": {
+				"navigationBarTitleText": "报价类型"
+			}
+		},
+		{
+			"path": "pages/quotedPrice/otherTab/OtherTab",
+			"style": {
+				"navigationBarTitleText": "热门商品"
+			}
+		},
+		{
+			"path": "pages/product/Product",
+			"style": {
+				"navigationBarTitleText": "产品介绍"
+			}
+		},
+		{
+			"path": "pages/product/productPages/BuyerShowDetail",
+			"style": {
+				"navigationBarTitleText": "买家秀"
+			}
+		},
+		{
+			"path": "pages/series/Series",
+			"style": {
+				"navigationBarTitleText": "加强件"
+			}
+		},
+		{
+			"path": "pages/series/seriesDetail/SeriesDetail",
+			"style": {
+				"navigationBarTitleText": "文章"
+			}
+		},
+		{
+			"path": "pages/profile/Profile",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/selectCar/SelectCar",
+			"style": {
+				"navigationBarTitleText": "选择车型"
+			}
+		},
+		{
+			"path": "pages/selectCar/calcPrice/CalcPrice",
+			"style": {
+				"navigationBarTitleText": "记价"
+			}
+		}
+	],
+	
+	// 全局样式设置
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#333"
+	},
+	
+	// 全局tabbar样式设置
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#fccf01",
+		"backgroundColor":"#fff",
+		"position":"bottom",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/home/Home",
+				"text":"首页",
+				"iconPath":"./static/icon/tabbar/home.png",
+				"selectedIconPath":"./static/icon/tabbar/home-selected.png"
+			},
+			{
+				"pagePath":"pages/quotedPrice/QuotedPrice",
+				"text":"报价",
+				"iconPath":"./static/icon/tabbar/quoted.png",
+				"selectedIconPath":"./static/icon/tabbar/quoted-selected.png"
+			},
+			{
+				"pagePath":"pages/series/Series",
+				"text":"加强件",
+				"iconPath":"./static/icon/tabbar/series.png",
+				"selectedIconPath":"./static/icon/tabbar/series-selected.png"
+			},
+			{
+				"pagePath":"pages/product/Product",
+				"text":"产品",
+				"iconPath":"./static/icon/tabbar/product.png",
+				"selectedIconPath":"./static/icon/tabbar/product-selected.png"
+			},
+			{
+				"pagePath":"pages/profile/Profile",
+				"text":"关于",
+				"iconPath":"./static/icon/tabbar/profile.png",
+				"selectedIconPath":"./static/icon/tabbar/profile-selected.png"
+			}
+		]
+	}
+}
